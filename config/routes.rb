@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+  root 'home#about' # create a home controller and add a method about
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
